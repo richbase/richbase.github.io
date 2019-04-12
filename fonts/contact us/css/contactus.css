@@ -1,0 +1,227 @@
+.contact-wrap {
+	padding: 40px 0;
+  font-family: 'roboto';
+  background:url("https://www.toptal.com/designers/subtlepatterns/patterns/light_grey.png") repeat;
+}
+
+.contact-wrap .contact-details {
+  background:#e3e3e3;
+  color:#5f5f5f;
+  padding:30px 25px 10px;
+  margin-bottom: 40px;
+}
+
+.contact-wrap .contact-details h2 {
+  text-transform:uppercase;
+  margin: 0 0 15px;
+  font-size:30px;
+  font-weight:bold;
+  color:#000;
+}
+
+.contact-wrap .contact-other i, .contact-wrap .contact-other a{
+  display: inline-block;
+  margin-right: 10px;
+  color:#dd183f;
+}
+
+.contact-wrap .contact-other.img {
+  text-align: center;
+}
+
+.contact-wrap .contact-other.img img{
+  max-width:55%;
+}
+
+.contact-wrap .contact-other p{
+  display: inline-block;
+  margin: 0 0 10px;
+  font-size:15px
+}
+
+.contact-form button {
+  background: #ff4081;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  height: 36px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+.contact-form button i {
+  color: #fff;
+}
+
+.contact-form button[disabled] {
+  background: #ddd;
+  color: #757575;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width:600px) {
+  #map {height:200px;margin-bottom: 20px;}
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: maroon;
+    padding: 0 100px;
+    box-sizing: border-box; 
+     
+}
+nav .companylogo { 
+    float: left;
+    height: 100%;
+    line-height: 70px;
+    padding: .1px;
+    margin: -.3px;
+   
+    border-radius: 23%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: maroon;
+    padding: 0 100px;
+    box-sizing: border-box; 
+     
+}
+nav .companylogo { 
+    float: left;
+    height: 100%;
+    line-height: 70px;
+    padding: .1px;
+    margin: -.3px;
+   
+    border-radius: 23%;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size:17px;
+    font-family:Verdana, Geneva, sans-serif;
+    
+    text-decoration: none;
+    transition: .5s;
+    
+}
+nav ul li a:hover{
+    color: black ;
+}
+nav ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    z-index: -2;
+    transform: scaleX(0);
+    transition: transform .5s;
+    
+}
+nav ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.search-txt{
+   position: absolute;
+    top:50%;
+    left: 45%;
+    float: right;
+    transform: translate(-50%,-50%);
+    outline:none;
+    background: none;
+    height: 40px;
+    
+    border-radius: 30px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size:16px;
+    
+   
+}
+
+.search-btn{
+	position: absolute;
+	top: 50%;
+	left: 53%;
+	float: right;
+	transform: translate(-50%,-50%);
+	color: maroon;
+	float: right;
+	outline: none;
+	height: 58%;
+	border-radius: 50px;
+	padding: 11px;
+    padding-top: 11px;
+	background: white;
+	font-size: 0px;
+	padding-top: 0px;
+}
+h1{
+    
+    margin: 100px;
+    padding:100px;
+}
+ .footer {
+       position: relative;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: maroon;
+       color:white;
+    }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-Jan-2019, 11:47:17
+    Author     : user
+*/
+
+
+

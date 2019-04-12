@@ -1,0 +1,119 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: maroon;
+    padding: 0 100px;
+    box-sizing: border-box; 
+     
+}
+nav .companylogo { 
+    float: left;
+    height: 100%;
+    line-height: 70px;
+    padding: .1px;
+    margin: -.3px;
+   
+    border-radius: 23%;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size:17px;
+    font-family:Verdana, Geneva, sans-serif;
+    
+    text-decoration: none;
+    transition: .5s;
+    
+}
+nav ul li a:hover{
+    color: black ;
+}
+nav ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    z-index: -2;
+    transform: scaleX(0);
+    transition: transform .5s;
+    
+}
+nav ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.search-txt{
+   position: absolute;
+    top:50%;
+    left: 50%;
+    float: right;
+    transform: translate(-50%,-50%);
+    outline:none;
+    background: none;
+    height: 40px;
+    
+    border-radius: 30px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size:16px;
+    
+   
+}
+
+.search-btn{
+    position: absolute;
+    top:50%;
+    left: 57%;
+    float: right;
+    transform: translate(-50%,-50%);
+    color: maroon;
+    float:right;
+    outline: none;
+    height: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    background:white;
+    font-size:20px; 
+        
+}
+h1{
+    
+    margin: 100px;
+    padding:100px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-Jan-2019, 11:47:17
+    Author     : user
+*/
+
