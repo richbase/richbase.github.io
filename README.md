@@ -1,2 +1,1 @@
 # richbase.github.io
-ourwebsite
