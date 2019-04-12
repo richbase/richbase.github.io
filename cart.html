@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quote</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
+  
+  
+     <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+    <link rel="stylesheet" href="cart/css/style.css">
+    <link rel="stylesheet" href="cart/css/pop-up.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="cart/js/pop-up.js"></script>
+	<script type="text/javascript" src="jcart/js/jquery-3.3.1.min.js"></script>
+    	<script type="text/javascript" src="cart/js/requestQuote.js"></script>
+		
+  
+</head>
+
+<body>
+
+        
+         <nav>
+  <div class='mini'>
+    <p class='products' name="product">Empty</p>
+    <p class='names' name="name"></p>
+    <p class='miniprice' name="miniPrice"></p>
+    <button class="btn open-form">Request Quote</button>
+  </div>
+  <ul>
+    <li><a href="#" ></a></li>
+    
+  </ul>
+  <div class='cart icon-basket'>
+    <span class='number'>0</span>
+  </div>
+</nav>
+    <div class="form-popup">
+			<div class="container form-wrapper">
+				<button class="btn close-form">Close</button>
+				<form id="my-form" novalidate="novalidate" action="php/sendQuote" method="post">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h1 class="form-title">Pop-up form</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" name="name" required="">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="email">E-mail</label>
+							<input type="text" class="form-control" id="email" name="email" required="">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="email">Phone Number</label>
+							<input type="text" class="form-control" id="email" name="phoneNumber" required="">
+						</div>
+					</div>
+          
+					
+					<div class="form-check">
+						<label>
+						<input type="checkbox" name="formcheck" checked="" class="checkfz" required=""> Submit<br>
+						</label>
+					</div>
+					<button type="submit" class="btn send-form">Send</button>
+				</form>
+			</div>
+		</div>
+    
+<div class='container'>
+  <div class='product'>
+    <img src="cart/images/database.jpg" style="width: 117%; height: 50%">
+    <h2 class='header'>DATABASE</h2>
+    <p class='description'> A database is a collection of information that is organized       so that it can be easily accessed, managed and updated.
+        Data is organized into rows, columns and tables, and it is indexed to make it easier to find relevant information. Data gets updated, expanded and deleted as new information is added. Databases process workloads to create and update themselves, querying the data they contain and running applications against it..</p>
+    <p class='price'>231</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/blog.jpg' style="width: 117%; height: 50%">
+    <h2 class='header'>BLOG</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/onlineshopping.jpeg' style="width: 117%; height: 50%">
+    <h2 class='header'>SHOPPING CART</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/data_analytics-1-1080x675.jpeg' style="width: 117%; height: 50%">
+    <h2 class='header'>DATA ANALYTICS</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/crm-concept-table-charts-ss-1920_cjnnna.jpg' style="width: 117%; height: 50%">
+    <h2 class='header'>CRM</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/invoice-cover.jpg' style="width: 117%; height: 50%">
+    <h2 class='header'>INVOICING</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/payment-gateway.jpg' style="width: 117%; height: 50%">
+    <h2 class='header'>PGI</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+  <div class='product'>
+    <img src='cart/images/mobiletouch1.jpg' style="width: 117%; height: 50%">
+    <h2 class='header'>MOBILE COMPATIBIITY</h2>
+    <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. Praesent id velit in nisi maximus porta nec vitae odio. Proin vitae magna a massa accumsan venenatis. Donec semper, sem in ullamcorper bibendum, mauris sem imperdiet lorem, tempor aliquet ligula lorem sit amet nibh. Suspendisse potenti.</p>
+    <p class='price'>231,-</p>
+    <div class='btn'>Add to cart</div>
+    <div class='quickview'>Quickview</div>
+  </div>
+ 
+</div>
+<div class='quickviewContainer'>
+  <div class='close'></div>
+  <h2 class='headline'></h2>
+    <p class='description'></p>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+  
+
+    <script  src="js/requestQuote.js"></script>
+    
+    </form>
+ 
+</body>
+
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3>Address</h3>
+                    <ul>
+                        <p>Botswana Innovation Hub, Science and Technology park</p>
+                        <li><p>Block 8 Industrial, Plot 69184, Gaborone</p> </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Services </h3>
+                    <ul>
+                        <li> <p>IT Support</p> </li>
+                        <li> <p>Website Development</p> </li>
+                        <li> <p>Mobile App Development</p> </li>
+                        <li> <p>Digital Marketing</p> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Solutions </h3>
+                    <ul>
+                        <li> <a href="http://www.capsuite.com">Capsuite</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Contacts </h3>
+                    <ul style="color: white;">
+                        <li> Tel: +267 3913328</li>
+                        <li> Email: richbasetech@gmail.com</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Follow us on:</h3>
+                    
+                    <ul class="social">
+                        <li><i style="font-size:24px" class="fa"><img src="facebook.png"alt="facebook" title="Follow us on facebook"></i></li>
+						 <li><i style="font-size:24px" class="fa"><img src="instagram.png"alt="instagram" title="Follow us on instagram"></i></li>
+						 <li><i style="font-size:24px" class="fa"><img src="twitter.png"alt="twitter" title="Follow us on twitter"></i></li>
+						 <li><i style="font-size:24px" class="fa"><img src="google.png"alt="google" title="Email us"></i></li>
+
+                    </ul>
+
+                </div>
+                   <p class="pull-right"> Copyright © Richbase 2019. All right reserved. </p>
+
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    <!--/.footer-bottom--> 
+</footer>    
+ 
+ 
+
+
+</html>
